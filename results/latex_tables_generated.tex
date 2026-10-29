@@ -1,0 +1,26 @@
+% ==================== BẢNG 1: SỐ BIẾN / SỐ MỆNH ĐỀ CNF ====================
+\texttt{myciel3} ($5, 5, 3$) & 15 / 37 & 25 / 47 & 25 / 52 & 15 / 37 & 35 / 62 & 22 / 28 \\
+\texttt{myciel4} ($11, 20, 4$) & 44 / 159 & 77 / 181 & 66 / 181 & 66 / 203 & 88 / 203 & 133 / 310 \\
+\texttt{queen5\_5} ($25, 160, 5$) & 125 / 1,077 & 225 / 1,102 & 200 / 1,202 & 175 / 1,127 & 250 / 1,177 & 324 / 484 \\
+\texttt{queen6\_6} ($36, 290, 7$) & 252 / 2,824 & 468 / 2,680 & 360 / 2,824 & 360 / 2,752 & 468 / 2,788 & 1,027 / 7,936 \\
+\texttt{myciel5} ($23, 71, 5$) & 115 / 610 & 207 / 633 & 184 / 725 & 161 / 656 & 230 / 702 & 575 / 3,157 \\
+\texttt{queen7\_7} ($49, 476, 7$) & 343 / 4,412 & 637 / 4,216 & 490 / 4,412 & 490 / 4,314 & 637 / 4,363 & 1,496 / 12,020 \\
+\texttt{DSJC50.5} ($50, 551, 10$) & 500 / 7,812 & 950 / 6,862 & 700 / 7,562 & 704 / 7,212 & 850 / 7,012 & 2,111 / 22,273 \\
+
+% ==================== BẢNG 2: THỜI GIAN CHẠY CÁC KỸ THUẬT SAT ====================
+\texttt{myciel3} & 0.0037 & 0.0014 & 0.0031 & 0.0017 & 0.0020 & 0.0007 & \textbf{0.0006} \\
+\texttt{myciel4} & 0.0010 & 0.0032 & 0.0013 & 0.0011 & 0.0013 & 0.0025 & \textbf{0.0053} \\
+\texttt{queen5\_5} & 0.0031 & 0.0043 & 0.0033 & 0.0059 & 0.0041 & 0.0078 & \textbf{0.0022} \\
+\texttt{queen6\_6} & 0.0158 & 0.0062 & 0.0225 & 0.0142 & 0.0144 & 0.3255 & \textbf{1.0773} \\
+\texttt{myciel5} & 0.0019 & 0.0019 & 0.0029 & 0.0019 & 0.0020 & 0.1844 & \textbf{0.7624} \\
+\texttt{queen7\_7} & 0.0451 & 0.0168 & 0.0501 & 0.0900 & 0.0446 & 0.1503 & \textbf{0.9747} \\
+\texttt{DSJC50.5} & 0.0152 & 0.0161 & 0.0174 & 0.0195 & 0.0182 & 81.0042 & \textbf{120.7939} \\
+
+% ==================== BẢNG 4: SO SÁNH SAT VS ILP VS CP ====================
+\texttt{myciel3} ($\chi = 3$) & \textbf{0.0006} & 0.0019 & NotInstalled & NotInstalled & NotInstalled & 0.0297 \\
+\texttt{myciel4} ($\chi = 4$) & \textbf{0.0053} & 0.0034 & NotInstalled & NotInstalled & NotInstalled & 0.0232 \\
+\texttt{queen5\_5} ($\chi = 5$) & \textbf{0.0022} & 0.0057 & NotInstalled & NotInstalled & NotInstalled & 0.0518 \\
+\texttt{queen6\_6} ($\chi = 7$) & \textbf{1.0773} & 0.0745 & NotInstalled & NotInstalled & NotInstalled & 0.3237 \\
+\texttt{myciel5} ($\chi = 5$) & \textbf{0.7624} & 0.0210 & NotInstalled & NotInstalled & NotInstalled & 0.0880 \\
+\texttt{queen7\_7} ($\chi = 7$) & \textbf{0.9747} & 0.0476 & NotInstalled & NotInstalled & NotInstalled & 0.4901 \\
+\texttt{DSJC50.5} ($\chi = 10$) & \textbf{120.7939} & 172.1819 & NotInstalled & NotInstalled & NotInstalled & 120.0148 \\
